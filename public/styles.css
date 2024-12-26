@@ -57,6 +57,7 @@ body{
     text-align: left;
     margin:auto;
     border: 5px solid #edbb99;
+    text-overflow: ellipsis;
 
 }
 
@@ -100,7 +101,7 @@ body{
   @media screen and (min-width: 600px) {
     .container{
       display: grid;
-      grid-template-columns:1fr 100px;
+      grid-template-columns:1fr 100px minmax(0, 1fr);
       grid-template-rows: repeat(3, 100px);
       row-gap: 25%;
       overflow: 0;
