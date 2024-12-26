@@ -103,6 +103,7 @@ body{
       grid-template-columns:1fr 100px;
       grid-template-rows: repeat(3, 100px);
       row-gap: 25%;
+      overflow: 0;
     
     }
   }
