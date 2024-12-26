@@ -1,7 +1,6 @@
-image2 {
+.image2 {
   width: 150px;
   border: 20px solid #edbb99;
-  box-sizing: border-box; 
   border-radius: 8px;
 }
 
